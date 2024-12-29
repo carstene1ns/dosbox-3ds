@@ -3,7 +3,7 @@
 #include <string.h>
 #include <3ds.h>
 #include "text.h"
-#include "include/font_bgr.h"
+#include "font_bgr.h"
 
 #include "font.h"
 

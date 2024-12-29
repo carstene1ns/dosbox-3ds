@@ -255,7 +255,7 @@ bool GFX_StartUpdate(Bit8u * & pixels,Bitu & pitch) {
 	return true;
 }
 
-void GFX_EndUpdate_Thread() {
+void GFX_EndUpdate_Thread(void *) {
 	thread_started = true;
 	const Bit16u *changedLines = 0;
 	while (!kill_thread)
